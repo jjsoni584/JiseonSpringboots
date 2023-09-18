@@ -43,6 +43,6 @@ public class MainController {
    }
    @DeleteMapping("/task/{taskNmuber}")
    public String deleteMethod(){
-    return "This method is Delete method";
+    return "This method is Delete method"; 
    }
 }
